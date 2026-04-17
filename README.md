@@ -1,1 +1,1 @@
-# prova-a2n1-web2
+# projeto: gestão de eventos
