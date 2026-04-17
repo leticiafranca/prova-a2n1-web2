@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <h2>Eventos em Destaque</h2>
+
+		<table border="1">
+    			<tr>
+        			<th>Evento</th>
+        			<th>Local</th>
+    			</tr>
+
+    			{% for e in eventos %}
+    			
+			<tr>
+        			<td>{{ e.nome }}</td>
+        			<td>{{ e.local }}</td>
+    			</tr>
+    			{% endfor %}
+		</table>
+
+		<br>
+		<a href="/novo_evento/">Novo Evento</a>
+</html>
